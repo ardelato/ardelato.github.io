@@ -4,17 +4,19 @@ body {
   background-image: url("../images/folk-pattern.png");
   color: #777777;
 }
-
-.headerContainer {
-  position: fixed;
+.headerBar {
   background-color: #ffffff;
   border: 0px 0px 2px 0px solid #cccccc;
-  top: 0;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+}
+.headerContainer {
+  width: 960px;
 }
 
 .button {
-  position: relative;
-  float: left;
+  float: right;
   padding: 16px 32px;
   text-align: center;
   font-size: 16px;
@@ -32,9 +34,18 @@ body {
   border-right: 1px solid #cccccc;
 }
 header {
+  float: left;
   background-color: #4aaaa5;
+  color: #ffffff;
+  padding: 0px 20px 0 20px;
 }
 
+section {
+  clear: both;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  background-color: #ffffff;
+}
 footer {
   background-color: #666666;
 }
