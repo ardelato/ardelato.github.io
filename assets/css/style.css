@@ -2,4 +2,39 @@ body {
   width: 960px;
   margin: 0 auto;
   background-image: url("../images/folk-pattern.png");
+  color: #777777;
+}
+
+.headerContainer {
+  position: fixed;
+  background-color: #ffffff;
+  border: 0px 0px 2px 0px solid #cccccc;
+  top: 0;
+}
+
+.button {
+  position: relative;
+  float: left;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #4aaaa5;
+  color: white;
+}
+
+.buttn1,
+.buttn2 {
+  border-right: 1px solid #cccccc;
+}
+header {
+  background-color: #4aaaa5;
+}
+
+footer {
+  background-color: #666666;
 }
