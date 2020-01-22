@@ -1,9 +1,9 @@
 body {
-  width: 960px;
   margin: 0 auto;
   background-image: url("../images/folk-pattern.png");
   color: #777777;
 }
+
 .headerBar {
   background-color: #ffffff;
   border: 0px 0px 2px 0px solid #cccccc;
@@ -13,6 +13,7 @@ body {
 }
 .headerContainer {
   width: 960px;
+  height: 80px;
 }
 
 .button {
@@ -46,13 +47,25 @@ section {
   margin-bottom: 60px;
   padding: 20px;
   /* Since last thing read takes precedence, this overrides the previous padding for top */
-  padding-top: 40px;
+  padding-top: 30px;
   background-color: #ffffff;
+  border: 1px solid #cccccc;
 }
 
 section > h1 {
   color: #4aaaa5;
+  font-size: 28px;
+}
+
+#main-img {
+  float: left;
+  display: block;
+  width: 150px;
+  height: 250px;
 }
 footer {
   background-color: #666666;
+  padding: 40px;
+  width: 100%;
+  text-align: center;
 }
