@@ -24,6 +24,10 @@ body {
   clear: both;
 }
 
+header {
+  transition-duration: 1s;
+}
+
 .button {
   float: right;
   padding: 16px 32px;
@@ -31,6 +35,7 @@ body {
   font-size: 16px;
   transition-duration: 0.4s;
   cursor: pointer;
+  margin-top: 16px;
 }
 
 .button:hover {
@@ -50,6 +55,7 @@ header {
 }
 
 section {
+  transition-duration: 2s;
   clear: both;
   width: 960px;
   margin: 0 auto;
@@ -62,17 +68,35 @@ section {
   border: 1px solid #dddddd;
 }
 
+section:after {
+  clear: both;
+}
+
 section > h1 {
   color: #4aaaa5;
   font-size: 28px;
 }
-
+section > p {
+  line-height: 40px;
+  font-size: 18px;
+}
 #main-img {
   float: left;
   display: block;
   width: 150px;
   height: 250px;
+  padding-top: 20px;
+  padding-right: 18px;
 }
+
+#dog-img {
+  width: 200px;
+  height: 250px;
+  float: right;
+  padding-top: 20px;
+  padding-left: 18px;
+}
+
 footer {
   background-color: #666666;
   padding: 40px;
