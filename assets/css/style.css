@@ -4,6 +4,25 @@ body {
   color: #777777;
 }
 
+a {
+  text-decoration: none;
+  color: #4aaaa5;
+}
+/* Normal State */
+a:link {
+}
+/* Once the link has been clicked */
+a:visited {
+}
+
+/* When you hover over the link */
+a:hover {
+}
+
+/* When you click on the link */
+a:active {
+}
+
 .headerBar {
   background-color: #ffffff;
   border-bottom: 2px solid #cccccc;
