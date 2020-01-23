@@ -8,20 +8,20 @@ a {
   text-decoration: none;
   color: #4aaaa5;
 }
-/* Normal State */
+/* Normal State
 a:link {
 }
-/* Once the link has been clicked */
+Once the link has been clicked
 a:visited {
 }
 
-/* When you hover over the link */
+When you hover over the link
 a:hover {
 }
 
-/* When you click on the link */
+When you click on the link
 a:active {
-}
+} */
 
 .headerBar {
   background-color: #ffffff;
@@ -99,6 +99,7 @@ section > p {
   line-height: 40px;
   font-size: 18px;
 }
+
 #main-img {
   float: left;
   display: block;
@@ -118,6 +119,8 @@ section > p {
 
 footer {
   background-color: #666666;
+  border-top: 10px solid #4aaaa5;
+  color: #ffffff;
   padding: 40px;
   width: 100%;
   text-align: center;
