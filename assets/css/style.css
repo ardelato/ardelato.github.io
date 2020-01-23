@@ -6,8 +6,12 @@ body {
 
 a {
   text-decoration: none;
+<<<<<<< HEAD
   color: #777777;
   font-size: 26px;
+=======
+  color: #4aaaa5;
+>>>>>>> d118bad4b672b5b80d4b3adf2f8e8ba5166558e6
 }
 /* Normal State
 a:link {
