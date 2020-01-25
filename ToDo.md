@@ -23,25 +23,27 @@
 
 ## `portfolio.html` aka Portfolio Page
 ---
-- [ ] Body
-  - [ ] Change background color/pattern
-- [ ] Header Bar
-  - [ ] Align Name container
-  - [ ] Change Color on Name background
-  - [ ] Float the nav items
-  - [ ] Change the styling of the nav items
-  - [ ] Make sure the entire header bar is white
-  - [ ] Add hover to the nav items
-- [ ] Main Content
-  - [ ] Change color of Portfolio header
-  - [ ] Size the content appropriately
-  - [ ] Create galley view with WIP added but names are listed
-  - [ ] Add the appropriate top and bottom margin
-- [ ] Footer
-  - [ ] Change color of font
-  - [ ] Change color of background
-  - [ ] Add the top border color
-  - [ ] need to position to bottom of the screen
+- [x] Body
+  - [x] Change background color/pattern
+- [x] Header Bar
+  - [x] Align Name container
+  - [x] Change Color on Name background
+  - [x] Float the nav items
+  - [x] Change the styling of the nav items
+  - [x] Make sure the entire header bar is white
+  - [x] Add hover to the nav items
+- [x] Main Content
+  - [x] Change color of Portfolio header
+  - [x] Size the content appropriately
+  - [x] Create galley view with WIP added but names are listed
+  - [x] Add the appropriate top and bottom margin
+  - [ ] Add hover functionality to the images/gallery  view
+    - [ ] Probably want to change it like how the nav bar links are done
+- [x] Footer
+  - [x] Change color of font
+  - [x] Change color of background
+  - [x] Add the top border color
+  - [x] need to position to bottom of the screen
 - [ ] **Test on a different broswer**
 
 ## `contact.html` aka Contact Page
