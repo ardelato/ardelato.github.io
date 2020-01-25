@@ -9,7 +9,7 @@ a {
   text-decoration: none;
   color: #777777;
 }
-
+/*index.html specifically*/
 #inlineLink {
   color: #4aaaa5;
 }
@@ -83,7 +83,8 @@ header {
   /* Make sure the right order is done, margin: 0 auto after the top and bottom were reseted*/
   margin: 0 auto;
   margin-top: 40px;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
+  padding-bottom: 60px;
   width: 960px;
 }
 
@@ -107,11 +108,14 @@ section > h1 {
   color: #4aaaa5;
   font-size: 28px;
 }
+
+/*index.html specifically*/
 section > p {
   line-height: 40px;
   font-size: 18px;
 }
 
+/*index.html specifically*/
 #main-img {
   float: right;
   display: block;
@@ -122,6 +126,7 @@ section > p {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/*index.html specifically*/
 #dog-img {
   float: left;
   width: 200px;
@@ -132,6 +137,7 @@ section > p {
 }
 
 footer {
+  clear: both;
   background-color: #666666;
   border-top: 10px solid #4aaaa5;
   color: #ffffff;
@@ -139,7 +145,6 @@ footer {
   padding-bottom: 40px;
   width: 100%;
   text-align: center;
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  position: relative;
+  margin-top: -100px;
 }
