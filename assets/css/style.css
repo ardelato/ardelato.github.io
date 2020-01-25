@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
-  background-image: url("../images/folk-pattern.png");
+  background-color: #ffffff;
   color: #777777;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -90,6 +90,8 @@ section {
   padding-top: 30px;
   background-color: #ffffff;
   border: 1px solid #dddddd;
+  /* 10px shadow horizontal & vertical  */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 section:after {
@@ -112,6 +114,7 @@ section > p {
   height: 250px;
   padding-top: 20px;
   padding-left: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #dog-img {
@@ -120,6 +123,7 @@ section > p {
   height: 250px;
   padding-top: 20px;
   padding-right: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 footer {

@@ -1,6 +1,7 @@
 # To Do Breakdown for Basic Portfolio
 
 - [ ] validate HTML files
+- [ ] remove unused images
 <br>
 <br>
 
@@ -9,8 +10,10 @@
 ---
 
 - [x] Change the color of the nav items
-- [ ] Switch the location of the images
+- [x] Switch the location of the images
 - [ ] Change background pattern
+- [ ] Modify main section padding to overal fit 960px
+- [ ] Add shadowing to boxes/images
 - [ ] **Run the page on different browser for testing**
 
 
@@ -34,6 +37,7 @@
   - [ ] Change color of font
   - [ ] Change color of background
   - [ ] Add the top border color
+  - [ ] need to position to bottom of the screen
 - [ ] **Test on a different broswer**
 
 ## `contact.html` aka Contact Page
