@@ -2,6 +2,8 @@
 
 - [ ] validate HTML files
 - [ ] remove unused images
+- [ ] create a standar css file for all three pages
+  - [ ] Then create unique stylesheets to also link to corresponding elements
 <br>
 <br>
 
@@ -11,9 +13,11 @@
 
 - [x] Change the color of the nav items
 - [x] Switch the location of the images
-- [ ] Change background pattern
-- [ ] Modify main section padding to overal fit 960px
-- [ ] Add shadowing to boxes/images
+- [x] Change background pattern
+- [x] Modify main section padding to overal fit 960px
+- [x] Add shadowing to boxes/images
+- [X] Keep the transition times the sames
+- [x] make the stay footer in the bottom section
 - [ ] **Run the page on different browser for testing**
 
 
