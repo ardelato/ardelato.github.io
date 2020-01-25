@@ -1,4 +1,4 @@
-# To Do Break for Basic Portfolio
+# To Do Breakdown for Basic Portfolio
 
 - [ ] validate HTML files
 <br>
@@ -8,12 +8,13 @@
 ## `index.html` aka About Page
 ---
 
-- [ ] Change the color of the nav items
+- [x] Change the color of the nav items
 - [ ] Switch the location of the images
+- [ ] Change background pattern
 - [ ] **Run the page on different browser for testing**
 
 
-## `portfolio.html`
+## `portfolio.html` aka Portfolio Page
 ---
 - [ ] Body
   - [ ] Change background color/pattern
@@ -35,7 +36,7 @@
   - [ ] Add the top border color
 - [ ] **Test on a different broswer**
 
-## `contact.html`
+## `contact.html` aka Contact Page
 ---
 - [ ] Body
   - [ ] Change background color/pattern

@@ -2,10 +2,15 @@ body {
   margin: 0 auto;
   background-image: url("../images/folk-pattern.png");
   color: #777777;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 a {
   text-decoration: none;
+  color: #777777;
+}
+
+#inlineLink {
   color: #4aaaa5;
 }
 /* Normal State
@@ -101,20 +106,20 @@ section > p {
 }
 
 #main-img {
-  float: left;
+  float: right;
   display: block;
   width: 150px;
   height: 250px;
   padding-top: 20px;
-  padding-right: 18px;
+  padding-left: 18px;
 }
 
 #dog-img {
+  float: left;
   width: 200px;
   height: 250px;
-  float: right;
   padding-top: 20px;
-  padding-left: 18px;
+  padding-right: 18px;
 }
 
 footer {
