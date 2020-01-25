@@ -4,6 +4,7 @@
 - [ ] remove unused images
 - [ ] create a standar css file for all three pages
   - [ ] Then create unique stylesheets to also link to corresponding elements
+- [ ] Portfolio page and about me pages are different sizes
 <br>
 <br>
 
@@ -37,8 +38,9 @@
   - [x] Size the content appropriately
   - [x] Create galley view with WIP added but names are listed
   - [x] Add the appropriate top and bottom margin
-  - [ ] Add hover functionality to the images/gallery  view
-    - [ ] Probably want to change it like how the nav bar links are done
+  - [X] Add hover functionality to the images/gallery  view
+    - [X] Probably want to change it like how the nav bar links are done
+  - [ ] Create template for project page
 - [x] Footer
   - [x] Change color of font
   - [x] Change color of background
