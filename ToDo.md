@@ -2,9 +2,8 @@
 
 - [ ] validate HTML files
 - [X] remove unused images
-- [ ] create a standard css file for all three pages
-  - [ ] Then create unique stylesheets to also link to corresponding elements
-- [ ] Portfolio page and about me pages are different sizes
+- [x] create a standard css file for all three pages
+  - [x] Then create unique stylesheets to also link to corresponding elements
 <br>
 <br>
 
@@ -52,25 +51,25 @@
 ---
 - [x] Body
   - [x] Change background color/pattern
-- [ ] Header Bar
-  - [ ] Align Name container
-  - [ ] Change Color on Name background
-  - [ ] Float the nav items
-  - [ ] Change the styling of the nav items
-  - [ ] Make sure the entire header bar is white
-  - [ ] Add hover to the nav items
-- [ ] Main Content
-  - [ ] Change color of Portfolio header
-  - [ ] Size the content appropriately
-  - [ ] Research into Input types and usages
-  - [ ] Create Name form
-    - [ ] Include hint text
-  - [ ] Create Email form
-    - [ ] Include hint text
-  - [ ] Create long text input form
-  - [ ] Create Submit button
-  - [ ] Add the appropriate top and bottom margin
-- [ ] Footer
-  - [ ] Change color of font
-  - [ ] Change color of background
-  - [ ] Add the top border color
+- [x] Header Bar
+  - [x] Align Name container
+  - [x] Change Color on Name background
+  - [x] Float the nav items
+  - [x] Change the styling of the nav items
+  - [x] Make sure the entire header bar is white
+  - [x] Add hover to the nav items
+- [x] Main Content
+  - [x] Change color of Portfolio header
+  - [x] Size the content appropriately
+  - [x] Research into Input types and usages
+  - [x] Create Name form
+    - [x] Include hint text
+  - [x] Create Email form
+    - [x] Include hint text
+  - [x] Create long text input form
+  - [x] Create Submit button
+  - [x] Add the appropriate top and bottom margin
+- [x] Footer
+  - [x] Change color of font
+  - [x] Change color of background
+  - [x] Add the top border color

@@ -10,7 +10,7 @@ a {
   color: #777777;
 }
 /*index.html specifically*/
-#inlineLink {
+.inlineLink {
   color: #4aaaa5;
 }
 /* Normal State
@@ -64,6 +64,7 @@ header {
 }
 
 .button:hover {
+  transition-duration: 0.5s;
   background-color: #4aaaa5;
   color: white;
 }
