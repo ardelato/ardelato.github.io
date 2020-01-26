@@ -86,6 +86,7 @@ header {
   margin-bottom: 100px;
   padding-bottom: 60px;
   width: 960px;
+  min-height: 800px;
 }
 
 section {
@@ -109,33 +110,7 @@ section > h1 {
   font-size: 28px;
 }
 
-/*index.html specifically*/
-section > p {
-  line-height: 40px;
-  font-size: 18px;
-}
-
-/*index.html specifically*/
-#main-img {
-  float: right;
-  display: block;
-  width: 150px;
-  height: 250px;
-  margin-top: 20px;
-  margin-left: 18px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-/*index.html specifically*/
-#dog-img {
-  float: left;
-  width: 200px;
-  height: 250px;
-  margin-top: 20px;
-  margin-right: 18px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
+/* Look into min-height */
 footer {
   clear: both;
   background-color: #666666;

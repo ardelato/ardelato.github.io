@@ -1,8 +1,8 @@
 # To Do Breakdown for Basic Portfolio
 
 - [ ] validate HTML files
-- [ ] remove unused images
-- [ ] create a standar css file for all three pages
+- [X] remove unused images
+- [ ] create a standard css file for all three pages
   - [ ] Then create unique stylesheets to also link to corresponding elements
 - [ ] Portfolio page and about me pages are different sizes
 <br>
@@ -40,7 +40,7 @@
   - [x] Add the appropriate top and bottom margin
   - [X] Add hover functionality to the images/gallery  view
     - [X] Probably want to change it like how the nav bar links are done
-  - [ ] Create template for project page
+  - [x] ~~Create template for project page~~ outside scope of this assignment
 - [x] Footer
   - [x] Change color of font
   - [x] Change color of background
@@ -50,8 +50,8 @@
 
 ## `contact.html` aka Contact Page
 ---
-- [ ] Body
-  - [ ] Change background color/pattern
+- [x] Body
+  - [x] Change background color/pattern
 - [ ] Header Bar
   - [ ] Align Name container
   - [ ] Change Color on Name background
