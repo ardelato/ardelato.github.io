@@ -1,0 +1,30 @@
+section {
+  padding: 50px;
+  padding-top: 30px;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  clear: both;
+}
+
+.polaroid {
+  width: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin: 10px;
+}
+
+.polaroid:hover {
+  background-color: #4aaaa5;
+  color: white;
+  border: 1px solid #4aaaa5;
+  box-shadow: 0 4px 8px 0#4aaaa5, 0 6px 20px 0 #4aaaa5;
+}
+
+.polaroidCaption {
+  padding: 10px;
+}
