@@ -18,6 +18,11 @@ section {
   margin: 10px;
 }
 
+.polaroid img {
+  width: 200px;
+  height: 200px;
+}
+
 .polaroid:hover {
   background-color: #4aaaa5;
   color: white;
