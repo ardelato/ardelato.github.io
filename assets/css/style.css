@@ -1,0 +1,86 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.container .row.header {
+  font-family: "sansation_lightlight";
+  flex: 0 1 auto;
+}
+
+.row.header .logo-container img {
+  position: absolute;
+  width: 313px;
+  height: 115px;
+  left: -80px;
+  top: -16px;
+}
+.row.header .logo-container p {
+  float: left;
+}
+
+.container .row.main-content {
+  flex: 1 1 auto;
+}
+
+.header {
+  width: 100%;
+}
+
+/* Main Items */
+.main-content {
+  background-color: #2a707d25;
+  height: 100vh;
+}
+.main-content #hello-text {
+  position: absolute;
+  width: 262px;
+  height: 91px;
+  left: 419px;
+  top: 331px;
+
+  font-family: Elsie Swash Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 111px;
+
+  color: #000000;
+}
+.main-content #name-text {
+  position: absolute;
+  width: 322px;
+  height: 96px;
+  left: 552px;
+  top: 450px;
+
+  font-family: Terminal Dosis;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 81px;
+
+  color: #000000;
+}
+.main-content #career-text {
+  position: absolute;
+  width: 706px;
+  height: 69px;
+  left: 645px;
+  top: 624px;
+
+  font-family: Fredericka the Great;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 69px;
+  /* identical to box height */
+
+  color: #000000;
+}

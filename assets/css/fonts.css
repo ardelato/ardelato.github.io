@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Fredericka the Great";
+  src: url("../fonts/webfontkit-Fredericka_the_Great/FrederickatheGreat-Regular.woff2")
+      format("woff2"),
+    url("../fonts/webfontkit-Fredericka_the_Great/FrederickatheGreat-Regular.woff2")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "elsie_swash_capsblack";
+  src: url("../fonts/webfontkit-Elsie_Swash_Caps/elsieswashcaps-black-webfont.woff2")
+      format("woff2"),
+    url("../fonts/webfontkit-Elsie_Swash_Caps/elsieswashcaps-black-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "elsie_swash_capsregular";
+  src: url("../fonts/webfontkit-Elsie_Swash_Caps/elsieswashcaps-regular-webfont.woff2")
+      format("woff2"),
+    url("../fonts/webfontkit-Elsie_Swash_Caps/elsieswashcaps-regular-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sansationbold";
+  src: url("../fonts/webfontkit-Sansation/sansation-bold-webfont.woff2")
+      format("woff2"),
+    url("../fonts/webfontkit-Sansation/sansation-bold-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sansationbold_italic";
+  src: url("../fonts/webfontkit-Sansation/sansation-bolditalic-webfont.woff2")
+      format("woff2"),
+    url("../fonts/webfontkit-Sansation/sansation-bolditalic-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sansationitalic";
+  src: url("../fonts/webfontkit-Sansation/sansation-italic-webfont.woff2")
+      format("woff2"),
+    url("../fonts/webfontkit-Sansation/sansation-italic-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sansation_lightlight";
+  src: url("../fonts/webfontkit-Sansation/sansation-light-webfont.woff2")
+      format("woff2"),
+    url("../fonts/webfontkit-Sansation/sansation-light-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sansation_lightlight_italic";
+  src: url("../fonts/webfontkit-Sansation/sansation-lightitalic-webfont.woff2")
+      format("woff2"),
+    url("../fonts/webfontkit-Sansation/sansation-lightitalic-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "sansationregular";
+  src: url("../fonts/webfontkit-Sansation/sansation-regular-webfont.woff2")
+      format("woff2"),
+    url("../fonts/webfontkit-Sansation/sansation-regular-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
