@@ -9,11 +9,11 @@ body {
   height: 100%;
 }
 
+/* Header/Nav Items */
 .container .row.header {
   font-family: "sansation_lightlight";
   flex: 0 1 auto;
 }
-
 .row.header .logo-container img {
   position: absolute;
   width: 313px;
@@ -23,21 +23,27 @@ body {
 }
 .row.header .logo-container p {
   float: left;
-}
+  font-style: italic;
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 50px;
+  letter-spacing: 0.04em;
 
-.container .row.main-content {
-  flex: 1 1 auto;
+  color: #ed8074;
 }
-
-.header {
-  width: 100%;
+.row.header .nav-container.link-container {
+  float: right;
 }
 
 /* Main Items */
+.container .row.main-content {
+  flex: 1 1 auto;
+}
 .main-content {
   background-color: #2a707d25;
   height: 100vh;
 }
+
 .main-content #hello-text {
   position: absolute;
   width: 262px;
@@ -45,7 +51,7 @@ body {
   left: 419px;
   top: 331px;
 
-  font-family: Elsie Swash Caps;
+  font-family: "elsie_swash_capsregular";
   font-style: normal;
   font-weight: normal;
   font-size: 96px;
@@ -60,7 +66,7 @@ body {
   left: 552px;
   top: 450px;
 
-  font-family: Terminal Dosis;
+  font-family: terminal_dosisextralight;
   font-style: normal;
   font-weight: 300;
   font-size: 64px;
