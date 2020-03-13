@@ -31,8 +31,16 @@ body {
 
   color: #ed8074;
 }
-.row.header .nav-container.link-container {
-  float: right;
+.row.header .nav-container .link-container {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
 }
 
 /* Main Items */
