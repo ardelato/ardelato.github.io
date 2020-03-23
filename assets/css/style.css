@@ -7,17 +7,24 @@
 html,
 body {
   margin: 0;
+  height: 100%;
 }
 
+.container {
+  height: 100vh;
+  background-color: #2a707d25;
+  display: flex;
+  flex-direction: column;
+}
 /* HEADER */
 .row.header {
   font-family: "sansation_lightlight";
+  background-color: whitesmoke;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: var(--header-padding);
 }
-
 /* LOGO CONTAINER */
 .logo-container {
   height: var(--logo-img-size);
@@ -32,27 +39,12 @@ body {
   padding: 0;
 }
 /* LOGO TEXT */
-.logo-container p {
-  font-style: italic;
-  font-weight: 600;
-  font-size: 45px;
-  line-height: 50px;
-  letter-spacing: 0.04em;
-  color: #ed8074;
-
-  cursor: default;
-
-  margin-left: var(--logo-img-size);
-  display: none;
-}
-
 .fly-in-text {
   list-style-type: none;
   position: absolute;
   margin-left: var(--logo-img-size);
   padding: 0;
 }
-
 .fly-in-text li {
   display: inline-block;
   font-style: italic;
@@ -66,7 +58,6 @@ body {
   transition: all 2s ease;
   cursor: default;
 }
-
 .fly-in-text.hidden li {
   opacity: 0;
   transform: translateX(-300px);
@@ -119,57 +110,41 @@ body {
 }
 
 /* Main Items */
-.container .row.main-content {
-  flex: 1 1 auto;
-}
 .main-content {
-  background-color: #2a707d25;
-  height: 100vh;
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
+/* .main-content > div {
+  flex: 1;
+} */
 .main-content #hello-text {
-  position: absolute;
-  width: 262px;
-  height: 91px;
-  left: 419px;
-  top: 331px;
-
   font-family: "elsie_swash_capsregular";
   font-style: normal;
   font-weight: normal;
   font-size: 96px;
-  line-height: 111px;
 
+  text-align: left;
   color: #000000;
 }
-.main-content #name-text {
-  position: absolute;
-  width: 322px;
-  height: 96px;
-  left: 552px;
-  top: 450px;
 
+.main-content #name-text {
   font-family: terminal_dosisextralight;
   font-style: normal;
   font-weight: 300;
   font-size: 64px;
-  line-height: 81px;
-
+  text-align: center;
   color: #000000;
+
+  padding: 0 50px;
 }
 .main-content #career-text {
-  position: absolute;
-  width: 706px;
-  height: 69px;
-  left: 645px;
-  top: 624px;
-
   font-family: Fredericka the Great;
   font-style: normal;
   font-weight: normal;
   font-size: 56px;
-  line-height: 69px;
-  /* identical to box height */
-
   color: #000000;
+  float: right;
 }
