@@ -20,9 +20,11 @@ body {
 .row.header {
   font-family: "sansation_lightlight";
   background-color: whitesmoke;
+
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+
   padding: var(--header-padding);
 }
 /* LOGO CONTAINER */
@@ -38,31 +40,6 @@ body {
   position: absolute;
   padding: 0;
 }
-/* LOGO TEXT */
-.fly-in-text {
-  list-style-type: none;
-  position: absolute;
-  margin-left: var(--logo-img-size);
-  padding: 0;
-}
-.fly-in-text li {
-  display: inline-block;
-  font-style: italic;
-  font-weight: 600;
-  font-size: 45px;
-  line-height: 50px;
-  letter-spacing: 0.04em;
-
-  color: #ed8074;
-  opacity: 1;
-  transition: all 2s ease;
-  cursor: default;
-}
-.fly-in-text.hidden li {
-  opacity: 0;
-  transform: translateX(-300px);
-}
-
 /* NAV LINK CONTAINER */
 .nav-container .link-container {
   display: inline-block;
@@ -70,11 +47,12 @@ body {
   cursor: pointer;
   padding: 0 20px;
 }
+
 /* NAV LINKS*/
-.link-container a {
+.inactive-page {
   font-style: normal;
   font-weight: 300;
-  font-size: 28px;
+  font-size: calc(var(--logo-img-size) / 3);
   color: #000000;
 
   display: inline-block;
@@ -86,7 +64,7 @@ body {
   overflow: hidden;
 }
 /* NAV LINK UNDERLINE */
-.link-container a::after {
+.inactive-page::after {
   content: "";
   position: absolute;
   background-color: #1d7a8c;
@@ -101,50 +79,27 @@ body {
   transition: 0.35s ease;
 }
 /* NAV LINK EFFECT */
-.link-container a:hover {
+.inactive-page:hover {
   color: #1d7a8c;
 }
 /* NAV LINK UNDERLINE EFFECT */
-.link-container a:hover::after {
+.inactive-page:hover::after {
   width: 100%;
 }
-
-/* Main Items */
-.main-content {
-  flex: 1;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.active-page {
+  color: #1d7a8c;
+  font-weight: 900;
+  font-size: calc(var(--logo-img-size) / 2.3);
 }
-/* .main-content > div {
-  flex: 1;
-} */
-.main-content #hello-text {
-  font-family: "elsie_swash_capsregular";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 96px;
+.active-page::after {
+  content: "";
+  position: absolute;
+  background-color: #1d7a8c;
 
-  text-align: left;
-  color: #000000;
-}
+  height: 2px;
+  width: 100%;
 
-.main-content #name-text {
-  font-family: terminal_dosisextralight;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 64px;
-  text-align: center;
-  color: #000000;
-
-  padding: 0 50px;
-}
-.main-content #career-text {
-  font-family: Fredericka the Great;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 56px;
-  color: #000000;
-  float: right;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
 }

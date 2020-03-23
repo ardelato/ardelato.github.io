@@ -1,0 +1,62 @@
+/* LOGO TEXT */
+.fly-in-text {
+  list-style-type: none;
+  position: absolute;
+  margin-left: var(--logo-img-size);
+  padding: 0;
+}
+.fly-in-text li {
+  display: inline-block;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 50px;
+  letter-spacing: 0.04em;
+
+  color: #ed8074;
+  opacity: 1;
+  transition: all 2s ease;
+  cursor: default;
+}
+.fly-in-text.hidden li {
+  opacity: 0;
+  transform: translateX(-300px);
+}
+
+/* Main Items */
+.main-content {
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content #hello-text {
+  font-family: "elsie_swash_capsregular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+
+  text-align: left;
+  color: #000000;
+}
+
+.main-content #name-text {
+  font-family: terminal_dosisextralight;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  text-align: center;
+  color: #000000;
+
+  padding: 0 50px;
+}
+.main-content #career-text {
+  font-family: Fredericka the Great;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  color: #000000;
+  float: right;
+}
