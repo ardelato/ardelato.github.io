@@ -1,0 +1,99 @@
+:root {
+  --logo-img-size: 50px;
+}
+
+.logo-container {
+  cursor: pointer;
+}
+.container {
+  background-color: white;
+}
+/* LOGO TEXT */
+.hover-fly-text {
+  list-style-type: none;
+  position: absolute;
+  margin-left: var(--logo-img-size);
+  padding: 0;
+}
+.hover-fly-text li {
+  display: inline-block;
+  font-style: italic;
+  font-weight: 300;
+  font-size: calc(var(--logo-img-size) / 2);
+  line-height: 50px;
+  letter-spacing: 0.04em;
+
+  color: #ed8074;
+  opacity: 1;
+  transition: all 1.5s ease;
+  cursor: default;
+}
+.hover-fly-text.hidden li {
+  opacity: 0;
+  transform: translateX(-300px);
+}
+
+.wip-container p {
+  font-family: Fredericka the Great;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 54px;
+  line-height: 66px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.project {
+  width: 257px;
+  height: 137px;
+
+  margin: 25px;
+  border: 1px solid;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-family: "oldenburgregular";
+  font-size: 18px;
+  text-align: center;
+}
+
+.project p {
+  padding: 10px;
+}
+
+.project-description {
+  display: none;
+}
+
+.project:hover {
+  height: 314px;
+}
+
+.project:nth-child(odd) {
+  border-color: #00233a;
+  color: #00233a;
+}
+.project:nth-child(even) {
+  border-color: #ed8074;
+  color: #ed8074;
+}
+
+#api-image {
+  width: 100px;
+  height: 80px;
+
+  display: none;
+  align-self: center;
+}
