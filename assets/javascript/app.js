@@ -1,11 +1,15 @@
+var thisObj;
+var timeID;
+
 $(window).on("load", function() {
   //Index Page
+  debugger;
   setTimeout(function() {
     $(".fly-in-text").removeClass("hidden");
   }, 500);
 
   //Other Pages
-  $(".logo-container").on({
+  $(".logo-thisObj").on({
     click: function() {
       window.location.href = "index.html";
     },
@@ -20,22 +24,13 @@ $(window).on("load", function() {
   //Portfolio Page
   $(".project").on({
     mouseenter: function() {
-      $(this)
-        .find(".project-name")
-        .hide();
-      $(this)
-        .find(".project-description")
-        .show();
-      $(this)
-        .find(".project-image")
-        .show();
-      $(this)
-        .find(".project-links")
-        .show()
-        .css("display", "flex");
-      $(this).css("justify-content", "space-between");
+      thisObj = $(this);
+      timeID = setTimeout(() => {
+        showProjectContents();
+      }, 700);
     },
     mouseleave: function() {
+      clearTimeout(timeID);
       $(this)
         .find(".project-name")
         .show();
@@ -52,3 +47,18 @@ $(window).on("load", function() {
     }
   });
 });
+
+function showProjectContents() {
+  console.log("Entered Time out");
+  console.log(thisObj);
+
+  thisObj.find(".project-name").hide();
+  thisObj.find(".project-description").show();
+  thisObj.find(".project-image").show();
+  thisObj
+    .find(".project-links")
+    .show()
+    .css("display", "flex");
+  thisObj.css("justify-content", "space-between");
+  waited = false;
+}

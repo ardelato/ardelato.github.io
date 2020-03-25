@@ -97,6 +97,7 @@
 }
 .project:hover {
   height: 314px;
+  transition-duration: 1.5s;
 }
 
 .project:nth-child(odd) {
