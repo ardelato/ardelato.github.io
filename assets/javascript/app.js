@@ -29,7 +29,11 @@ $(window).on("load", function() {
       $(this)
         .find(".project-image")
         .show();
-      $(this).css("justify-content", "flex-start");
+      $(this)
+        .find(".project-links")
+        .show()
+        .css("display", "flex");
+      $(this).css("justify-content", "space-between");
     },
     mouseleave: function() {
       $(this)
@@ -40,6 +44,9 @@ $(window).on("load", function() {
         .hide();
       $(this)
         .find(".project-image")
+        .hide();
+      $(this)
+        .find(".project-links")
         .hide();
       $(this).css("justify-content", "center");
     }
