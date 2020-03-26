@@ -1,126 +1,105 @@
+:root {
+  --logo-img-size: 100px;
+  --header-padding: 10px;
+  --link-underline-margin: 5px;
+}
+
+html,
 body {
-  margin: 0 auto;
-  background-color: #ffffff;
-  color: #777777;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  height: 100%;
 }
 
-a {
-  text-decoration: none;
-  color: #777777;
+.container {
+  height: 100vh;
+  background-color: #2a707d25;
+  display: flex;
+  flex-direction: column;
 }
-/*index.html specifically*/
-.inlineLink {
-  color: #4aaaa5;
-}
-/* Normal State
-a:link {
-}
-Once the link has been clicked
-a:visited {
-}
+/* HEADER */
+.row.header {
+  font-family: "sansation_lightlight";
+  background-color: whitesmoke;
 
-When you hover over the link
-a:hover {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: var(--header-padding);
 }
-
-When you click on the link
-a:active {
-} */
-
-.headerBar {
-  background-color: #ffffff;
-  border-bottom: 2px solid #cccccc;
-  width: 100%;
-  height: 80px;
-  z-index: -1;
-  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+/* LOGO CONTAINER */
+.logo-container {
+  height: var(--logo-img-size);
+  display: flex;
+  align-items: center;
 }
-
-.headerContainer {
-  background-color: #ffffff;
-  text-align: center;
-  margin: 0 auto;
-  width: 960px;
-  height: 80px;
+/* LOGO IMG */
+.logo-container img {
+  width: var(--logo-img-size);
+  height: var(--logo-img-size);
+  position: absolute;
+  padding: 0;
 }
-
-.headerContainer:after {
-  clear: both;
-}
-
-header {
-  transition-duration: 1.5s;
-}
-
-.button {
-  float: right;
-  padding: 16px 32px;
-  text-align: center;
-  font-size: 16px;
-  transition-duration: 1.5s;
+/* NAV LINK CONTAINER */
+.nav-container .link-container {
+  display: inline-block;
+  list-style-type: none;
   cursor: pointer;
-  margin-top: 16px;
+  padding: 0 20px;
 }
 
-.button:hover {
-  transition-duration: 0.5s;
-  background-color: #4aaaa5;
-  color: white;
-}
+/* NAV LINKS*/
+.inactive-page {
+  font-style: normal;
+  font-weight: 300;
+  font-size: calc(var(--logo-img-size) / 3);
+  color: #000000;
 
-.buttn1,
-.buttn2 {
-  border-right: 1px solid #cccccc;
-}
-header {
-  float: left;
-  background-color: #4aaaa5;
-  color: #ffffff;
-  padding: 0px 20px 0 20px;
-}
-
-#mainContentContainer {
-  /* Make sure the right order is done, margin: 0 auto after the top and bottom were reseted*/
-  margin: 0 auto;
-  margin-top: 40px;
-  margin-bottom: 100px;
-  padding-bottom: 60px;
-  width: 960px;
-  min-height: 800px;
-}
-
-section {
-  transition-duration: 1.5s;
-  clear: both;
-  padding: 20px;
-  /* Since last thing read takes precedence, this overrides the previous padding for top */
-  padding-top: 30px;
-  background-color: #ffffff;
-  border: 1px solid #dddddd;
-  /* 10px shadow horizontal & vertical  */
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-section:after {
-  clear: both;
-}
-
-section > h1 {
-  color: #4aaaa5;
-  font-size: 28px;
-}
-
-/* Look into min-height */
-footer {
-  clear: both;
-  background-color: #666666;
-  border-top: 10px solid #4aaaa5;
-  color: #ffffff;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  width: 100%;
-  text-align: center;
+  display: inline-block;
   position: relative;
-  margin-top: -100px;
+  text-align: center;
+
+  text-decoration: none;
+
+  overflow: hidden;
+}
+/* NAV LINK UNDERLINE */
+.inactive-page::after {
+  content: "";
+  position: absolute;
+  background-color: #1d7a8c;
+
+  height: 2px;
+  width: 0%;
+
+  transform: translateX(-50%);
+
+  left: 50%;
+  bottom: 0;
+  transition: 0.35s ease;
+}
+/* NAV LINK EFFECT */
+.inactive-page:hover {
+  color: #1d7a8c;
+}
+/* NAV LINK UNDERLINE EFFECT */
+.inactive-page:hover::after {
+  width: 100%;
+}
+.active-page {
+  color: #1d7a8c;
+  font-weight: 900;
+  font-size: calc(var(--logo-img-size) / 2.3);
+}
+.active-page::after {
+  content: "";
+  position: absolute;
+  background-color: #1d7a8c;
+
+  height: 2px;
+  width: 100%;
+
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
 }

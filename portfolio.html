@@ -2,86 +2,226 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Portfolio</title>
+    <title>Angel de la Torre</title>
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.ico"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css" />
+    <link rel="stylesheet" href="assets/css/fonts.css" />
+    <link rel="stylesheet" href="assets/css/portfolio-style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
   </head>
 
   <body>
-    <div class="headerBar">
-      <div class="headerContainer">
-        <header><h1>Portfolio</h1></header>
-        <nav>
-          <!-- https://www.w3schools.com/css/css3_buttons.asp -->
-          <!-- https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html -->
-          <a href="contact.html" class="button buttn3">Contact</a>
-          <a href="portfolio.html" class="button buttn2">Portfolio</a>
-          <a href="index.html" class="button buttn1">About</a>
+    <div class="container">
+      <div class="row header">
+        <div class="logo-container">
+          <img src="assets/images/logo_Letter.png" alt="Angel Logo" />
+          <ul class="hover-fly-text hidden">
+            <li>n</li>
+            <li>g</li>
+            <li>e</li>
+            <li>l</li>
+            <li>&nbsp</li>
+            <li>d</li>
+            <li>e</li>
+            <li>&nbsp</li>
+            <li>l</li>
+            <li>a</li>
+            <li>&nbsp</li>
+            <li>T</li>
+            <li>o</li>
+            <li>r</li>
+            <li>r</li>
+            <li>e</li>
+          </ul>
+        </div>
+        <nav class="nav-container">
+          <ul class="nav-list">
+            <li class="link-container">
+              <a class="inactive-page" href="about.html">About</a>
+            </li>
+            <li class="link-container">
+              <a class="active-page" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="link-container">
+              <a class="inactive-page" href="">Contact</a>
+            </li>
+          </ul>
         </nav>
+      </div>
+
+      <div class="main-content">
+        <div class="wip-container">
+          <p>More $(".projects") will be appended soon</p>
+        </div>
+        <div class="projects-container">
+          <div class="project blue" id="GiftTastic">
+            <p class="project-name">
+              GiftTastic
+            </p>
+            <p class="project-description">
+              A project focusing on ajax requests with the GIPHY API.
+            </p>
+            <img
+              class="project-image"
+              src="assets/images/icons8-api-80.png"
+              alt="API ICON"
+            />
+            <div class="project-links">
+              <a
+                class="code-links"
+                href="https://github.com/ardelato/Giftastic"
+                target="_blank"
+              >
+                <img
+                  src="assets/images/icons8-code-blue.png"
+                  alt="source code"
+                />
+                <span class="caption">Source Code</span>
+              </a>
+              <a
+                class="code-links"
+                href="https://ardelato.github.io/Giftastic/"
+                target="_blank"
+              >
+                <img
+                  src="assets/images/icons8-web-design-blue.png"
+                  alt="deployed site"
+                />
+                <span class="caption">Deployed Site</span>
+              </a>
+            </div>
+          </div>
+          <div class="project pink" id="Trivia Game">
+            <p class="project-name">
+              Programming Trivia Game
+            </p>
+            <p class="project-description">
+              An interactive web game that focuses on updating the HTML and the
+              CSS of the page with JQuery and Javascript, while also
+              incorporating timers.
+            </p>
+            <img
+              class="project-image"
+              src="assets/images/icons8-quiz-100.png"
+              alt="quiz icon"
+            />
+            <div class="project-links">
+              <a
+                class="code-links"
+                href="https://github.com/ardelato/TriviaGame"
+                target="_blank"
+              >
+                <img
+                  src="assets/images/icons8-code-pink.png"
+                  alt="source code"
+                />
+                <span class="caption">Source Code</span>
+              </a>
+              <a
+                class="code-links"
+                href="https://ardelato.github.io/TriviaGame/"
+                target="_blank"
+              >
+                <img
+                  src="assets/images/icons8-web-design-pink.png"
+                  alt="deployed site"
+                />
+                <span class="caption">Deployed Site</span>
+              </a>
+            </div>
+          </div>
+          <div class="project blue" id="Crystal Collector">
+            <p class="project-name">
+              Crystal Collector
+            </p>
+            <p class="project-description">
+              An interactive game for web browsers, where I am using jQuery and
+              Javascript to dynamically update the HTML.
+            </p>
+            <img
+              class="project-image"
+              src="assets/images/icons8-crystal-100.png"
+              alt="crystal icon"
+            />
+            <div class="project-links">
+              <a
+                class="code-links"
+                href="https://github.com/ardelato/unit-4-game"
+                target="_blank"
+              >
+                <img
+                  src="assets/images/icons8-code-blue.png"
+                  alt="source code"
+                />
+                <span class="caption">Source Code</span>
+              </a>
+              <a
+                class="code-links"
+                href="https://ardelato.github.io/unit-4-game/"
+                target="_blank"
+              >
+                <img
+                  src="assets/images/icons8-web-design-blue.png"
+                  alt="deployed site"
+                />
+                <span class="caption">Deployed Site</span>
+              </a>
+            </div>
+          </div>
+          <div class="project pink" id="Themed Hangman">
+            <p class="project-name">
+              Themed Hangman
+            </p>
+            <p class="project-description">
+              An interactive game for web browsers, where I am using just
+              Javascript to dynamically update the HTML and CSS.
+            </p>
+            <img
+              class="project-image"
+              src="assets/images/icons8-hang-100.png"
+              alt="hang icon"
+            />
+            <div class="project-links">
+              <a
+                class="code-links"
+                href="https://github.com/ardelato/Word-Guess-Game"
+                target="_blank"
+              >
+                <img
+                  src="assets/images/icons8-code-pink.png"
+                  alt="source code"
+                />
+                <span class="caption">Source Code</span>
+              </a>
+              <a
+                class="code-links"
+                href="https://ardelato.github.io/Word-Guess-Game/"
+                target="_blank"
+              >
+                <img
+                  src="assets/images/icons8-web-design-pink.png"
+                  alt="deployed site"
+                />
+                <span class="caption">Deployed Site</span>
+              </a>
+            </div>
+          </div>
+          <div class="project"></div>
+          <div class="project"></div>
+          <div class="project"></div>
+          <div class="project"></div>
+        </div>
       </div>
     </div>
 
-    <div id="mainContentContainer">
-      <section>
-        <h1>Portfolio</h1>
-        <hr />
-
-        <div class="flex-container">
-          <div class="polaroid">
-            <a href="https://ardelato.github.io/unit-4-game/"
-              ><img
-                src="assets/images/Crystal Collector Project.png"
-                alt="Crystal Collector"
-            /></a>
-            <div class="polaroidCaption">
-              <p>Crystal Collector</p>
-            </div>
-          </div>
-          <div class="polaroid">
-            <a href="https://ardelato.github.io/TriviaGame/"
-              ><img
-                src="assets/images/Trivia Game Project.png"
-                alt="placeholder"
-            /></a>
-            <div class="polaroidCaption">
-              <p>Programming Trivia Game</p>
-            </div>
-          </div>
-          <div class="polaroid">
-            <a href="https://ardelato.github.io/Giftastic/"
-              ><img src="assets/images/GifTastic Project.png" alt="placeholder"
-            /></a>
-            <div class="polaroidCaption">
-              <p>GifTastic</p>
-            </div>
-          </div>
-
-          <div class="polaroid">
-            <a href="https://ardelato.github.io/RPS-Multiplayer/">
-              <img
-                src="assets/images/Rock Paper Scissors.png"
-                alt="placeholder"
-              />
-            </a>
-            <div class="polaroidCaption">
-              <p>Rock Paper Scissors Multiplier</p>
-            </div>
-          </div>
-          <div class="polaroid">
-            <img src="https://via.placeholder.com/200" alt="placeholder" />
-            <div class="polaroidCaption">
-              <p>Project E</p>
-            </div>
-          </div>
-          <div class="polaroid">
-            <img src="https://via.placeholder.com/200" alt="placeholder" />
-            <div class="polaroidCaption">
-              <p>Project F</p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-    <footer>Copyright &COPY;</footer>
+    <footer>
+      <a href="https://icons8.com">All icons were obtained from Icons8</a>
+    </footer>
   </body>
 </html>
