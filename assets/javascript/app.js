@@ -8,11 +8,12 @@ $(window).on("load", function() {
   }, 500);
 
   //Other Pages
-  $(".logo-thisObj").on({
+  $(".logo-container").on({
     click: function() {
       window.location.href = "index.html";
     },
     mouseenter: function() {
+      console.log("Removing Hidden Class");
       $(".hover-fly-text").removeClass("hidden");
     },
     mouseleave: function() {
