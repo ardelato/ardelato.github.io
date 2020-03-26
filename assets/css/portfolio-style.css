@@ -64,7 +64,7 @@
   justify-content: center;
 
   font-family: "oldenburgregular";
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -79,6 +79,12 @@
   justify-content: space-evenly;
 }
 
+.project-image {
+  width: 80px;
+  height: 80px;
+  align-self: center;
+}
+
 .code-links {
   text-decoration: none;
   font-size: 10px;
@@ -90,13 +96,15 @@
 
 .caption {
   display: block;
+  cursor: pointer;
 }
 .code-links img {
   width: 45px;
   height: 45px;
+  cursor: pointer;
 }
 .project:hover {
-  height: 314px;
+  height: 350px;
   transition-duration: 1.5s;
 }
 
@@ -107,11 +115,4 @@
 .project:nth-child(even) {
   border-color: #ed8074;
   color: #ed8074;
-}
-
-#api-image {
-  width: 100px;
-  height: 80px;
-
-  align-self: center;
 }

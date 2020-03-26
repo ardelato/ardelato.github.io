@@ -3,7 +3,6 @@ var timeID;
 
 $(window).on("load", function() {
   //Index Page
-  debugger;
   setTimeout(function() {
     $(".fly-in-text").removeClass("hidden");
   }, 500);
@@ -48,6 +47,7 @@ $(window).on("load", function() {
   });
 });
 
+// For Portfolio Page
 function showProjectContents() {
   console.log("Entered Time out");
   console.log(thisObj);
