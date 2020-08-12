@@ -39,39 +39,17 @@
   justify-content: center;
   align-items: center;
 }
-
 .title-container p {
   font-family: terminal_dosisextralight;
   font-size: 64px;
 }
 
-.inputs-container {
-  width: 50%;
-  font-family: "sansation_lightlight";
-}
-input {
-  font-family: "sansation_lightlight_italic";
+.contact-information {
+  font-family: terminal_dosisextralight;
+  font-size: 18px;
 }
 
-#submit {
-  font-family: "sansation_lightlight";
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.first-row {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin-bottom: 20px;
-}
-#name {
-}
-.external-links img {
-  width: 50px;
-  height: 50px;
+.contact-icons {
+  width: 25px;
+  height: 25px;
 }

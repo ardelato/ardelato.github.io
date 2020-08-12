@@ -54,7 +54,7 @@
 
 .project {
   width: 257px;
-  height: 137px;
+  height: 350px;
 
   margin: 25px;
   border: 1px solid;
@@ -68,14 +68,9 @@
   text-align: center;
 }
 
-.project p {
-  padding: 10px;
-}
-
 .project-description,
 .project-image,
 .project-links {
-  display: none;
   justify-content: space-evenly;
 }
 
@@ -104,7 +99,6 @@
   cursor: pointer;
 }
 .project:hover {
-  height: 350px;
   transition-duration: 1.5s;
 }
 
